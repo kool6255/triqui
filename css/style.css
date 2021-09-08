@@ -1,0 +1,68 @@
+#main {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#comands {
+    display: inline-block;
+    border: 1px solid grey;
+    min-height: 380px;
+    vertical-align: top;
+    width: 30%;
+}
+
+#game {
+    border: 1px solid blue;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+#game input {
+    font-size: 3em;
+    height: 70px;
+    margin: 5px;
+    width: 70px;
+}
+
+input[type="button"]#start {
+    font-size: 0.8em;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+input[type="text"] {
+    font-size: 1em;
+    margin: 0.2em;
+    padding: 0.1em;
+}
+
+label {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttonStart {
+    color: #77d;
+    background-color: #77d;
+}
+
+.buttonPlayer1 {
+    color: transparent;
+    background: url(../img/x.png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.buttonPlayer2 {
+    color: transparent;
+    background: url(../img/o.png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
